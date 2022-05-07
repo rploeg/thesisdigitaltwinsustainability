@@ -1,0 +1,2 @@
+
+.create-merge table boltmaker (messageTimestamp:datetime, deviceId:string, plantName:string, productionLine:string, shiftNumber:long, batchNumber:long, totalPartsMade:long, defectivePartsMade:long, temperature:real, oilLevel:real, machineHealth:string) 

@@ -1,0 +1,175 @@
+[
+  {
+    "@id": "dtmi:parnellAerospace:BoltMakerV1;1",
+    "@type": "Interface",
+    "contents": [
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:plantName;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "PlantName"
+        },
+        "name": "plantName",
+        "schema": "string"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:productionLine;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Production Line"
+        },
+        "name": "productionLine",
+        "schema": "string"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:shiftNumber;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "ShiftNumber"
+        },
+        "name": "shiftNumber",
+        "schema": "integer"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:batchNumber;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Batch Number"
+        },
+        "name": "batchNumber",
+        "schema": "integer"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:messageTimestamp;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "MessageTimestamp"
+        },
+        "name": "messageTimestamp",
+        "schema": "dateTime"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:totalPartsMade;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Total Parts Made"
+        },
+        "name": "totalPartsMade",
+        "schema": "integer"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:defectivePartsMade;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Defective Parts Made"
+        },
+        "name": "defectivePartsMade",
+        "schema": "integer"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:oilLevel;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Oil Level"
+        },
+        "name": "oilLevel",
+        "schema": "double"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:isMachineOn;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Is Machine On"
+        },
+        "name": "isMachineOn",
+        "schema": "boolean",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:telemetryFrequency;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Telemetry Frequency (Secs)"
+        },
+        "name": "telemetryFrequency",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:shiftDurationHours;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Shift Duration (Hours)"
+        },
+        "name": "shiftDurationHours",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:batchDurationHours;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "Batch Duration (Hours)"
+        },
+        "name": "batchDurationHours",
+        "schema": "integer",
+        "writable": true
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:hostName;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HostName"
+        },
+        "name": "hostName",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:ipAddress;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "IPAddress"
+        },
+        "name": "ipAddress",
+        "schema": "string",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:hostTime;1",
+        "@type": "Property",
+        "displayName": {
+          "en": "HostTime"
+        },
+        "name": "hostTime",
+        "schema": "dateTime",
+        "writable": false
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:machineHealth;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Machine Health"
+        },
+        "name": "machineHealth",
+        "schema": "string"
+      },
+      {
+        "@id": "dtmi:parnellAerospace:BoltMakerV1:temperature;1",
+        "@type": "Telemetry",
+        "displayName": {
+          "en": "Temperature"
+        },
+        "name": "temperature",
+        "schema": "double"
+      }
+    ],
+    "displayName": {
+      "en": "BoltMaker"
+    },
+    "@context": [
+      "dtmi:iotcentral:context;2",
+      "dtmi:dtdl:context;2"
+    ]
+  }
+]

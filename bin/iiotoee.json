@@ -1,0 +1,35 @@
+{
+    "logger": {
+      "logLevel": "Debug",
+      "logsDir": "./logs"
+    },
+    "application": {
+      "provisioningUrl": "global.azure-devices-provisioning.net",
+      "idScope": "0ne0054B2E5",
+      "masterKey": "ZHhWqDQ6lEpNLDVUV60CunhZzZdkbNJB9bNNThE45Yqqk7bXiYm90RxxSYy0JqVgAWEJ1MI9GNYxLQTXbYy5uA==",
+      "boltMachineModelID": "dtmi:parnellAerospace:BoltMakerV1;1"
+    },
+    "plant": [
+      {
+        "name": "Everett",
+        "boltMachine":{
+          "count": 2,
+          "format": "json"
+        }
+      },
+      {
+        "name": "Austin",
+        "boltMachine":{
+          "count": 1,
+          "format": "json"
+        }
+      },
+      {
+        "name": "Atlanta",
+        "boltMachine":{
+          "count": 1,
+          "format": "json"
+        }
+      }
+    ]
+  }
