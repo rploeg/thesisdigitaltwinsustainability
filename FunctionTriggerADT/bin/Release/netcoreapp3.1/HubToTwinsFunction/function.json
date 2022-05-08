@@ -1,0 +1,13 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.11",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "eventGridEvent"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/adtDemoFunctions.dll",
+  "entryPoint": "Company.Function.HubToTwinsFunction.Run"
+}
