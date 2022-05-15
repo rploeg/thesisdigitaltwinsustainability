@@ -10,7 +10,7 @@
         "@type": [ "Property", "Temperature" ],
         "name": "ChasisTemperature",
         "schema": "double",
-        "unit": "degreeCelcius",
+        "unit": "degreeCelsius",
         "writable": true
       },
       {

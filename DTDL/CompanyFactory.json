@@ -1,0 +1,22 @@
+{
+    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:Company;1",
+    "@type": "Interface",
+    "@context": [
+     "dtmi:dtdl:context;2"
+    ],
+    "displayName": "Factory - Company name",
+    "contents": [
+     {
+      "@type": "Relationship",
+      "name": "contains",
+      "properties": [
+       {
+        "@type": "Property",
+        "name": "targetModel",
+        "schema": "string"
+       }
+      ],
+      "target": "dtmi:com:thesisrp:iot:e2e:digital_factory:Country;1"
+     }
+    ]
+   }
