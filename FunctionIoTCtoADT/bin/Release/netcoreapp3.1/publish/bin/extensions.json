@@ -1,0 +1,6 @@
+{
+  "extensions":[
+    { "name": "EventGrid", "typeName":"Microsoft.Azure.WebJobs.Extensions.EventGrid.EventGridWebJobsStartup, Microsoft.Azure.WebJobs.Extensions.EventGrid, Version=2.1.0.0, Culture=neutral, PublicKeyToken=014045d636e89289"},
+    { "name": "EventHubs", "typeName":"Microsoft.Azure.WebJobs.EventHubs.EventHubsWebJobsStartup, Microsoft.Azure.WebJobs.EventHubs, Version=4.1.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"}
+  ]
+}
