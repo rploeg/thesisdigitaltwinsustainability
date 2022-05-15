@@ -1,0 +1,21 @@
+{
+    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:MaintenancePersonnel;1",
+    "@type": "Interface",
+    "@context": [
+     "dtmi:dtdl:context;2"
+    ],
+    "displayName": "MaintenancePersonnel",
+    "contents": [
+     {
+      "@type": "Relationship",
+      "name": "maintains",
+      "properties": [
+       {
+        "@type": "Property",
+        "name": "targetModel",
+        "schema": "string"
+       }
+      ]
+     }
+    ]
+   }

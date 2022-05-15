@@ -17,3 +17,8 @@ https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentatio
 # Used datapoints
 
 https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentation/datapoint.md
+
+
+# Used DTDL structure
+The following libraries are used to build up the DTDL tree in Azure Digital Twin. Because placing comments is not allowed in the DTDL structure the credits are placed here. 
+https://github.com/Azure-Samples/digital-twins-samples/tree/master/HandsOnLab 

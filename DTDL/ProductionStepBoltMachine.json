@@ -1,0 +1,54 @@
+[
+  {
+    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step_bolt;2",
+    "@type": "Interface",
+    "extends": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step;2",
+    "displayName": "Factory Production Step: bolt/Roasting - Interface Model",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": ["Property", "Temperature"],
+        "name": "temperature",
+        "schema": "double",
+        "unit": "degreeCelsius",
+        "writable": true
+      },
+      {
+        "@type": ["Property", "Power"],
+        "name": "kwh",
+        "schema": "double",
+        "unit" : "kilowatt"
+      },
+      {
+        "@type": "Property",
+        "name": "oillevel",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "shiftNumber",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "batchNumber",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "totalPartsMade",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "defectivePartsMade",
+        "schema": "integer"
+      },
+      {
+        "@type": "machineHealth",
+        "name": "oillevel",
+        "schema": "string"
+      }
+    ]
+  }
+]
