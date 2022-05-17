@@ -8420,7 +8420,8 @@
       "Microsoft.Azure.WebJobs.Extensions.EventGrid >= 2.1.0",
       "Microsoft.Azure.WebJobs.Extensions.EventHubs >= 4.1.1",
       "Microsoft.NET.Sdk.Functions >= 3.0.11",
-      "System.Net.Http >= 4.3.4"
+      "System.Net.Http >= 4.3.4",
+      "System.Text.Json >= 4.6.0"
     ]
   },
   "packageFolders": {
@@ -8483,6 +8484,10 @@
           "System.Net.Http": {
             "target": "Package",
             "version": "[4.3.4, )"
+          },
+          "System.Text.Json": {
+            "target": "Package",
+            "version": "[4.6.0, )"
           }
         },
         "imports": [

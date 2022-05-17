@@ -1,6 +1,6 @@
 [
   {
-    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step_bolt;2",
+    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step_bolt;3",
     "@type": "Interface",
     "extends": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step;2",
     "displayName": "Factory Production Step: bolt/Roasting - Interface Model",
@@ -21,7 +21,7 @@
       },
       {
         "@type": "Property",
-        "name": "oillevel",
+        "name": "oilLevel",
         "schema": "double"
       },
       {
@@ -45,8 +45,23 @@
         "schema": "integer"
       },
       {
-        "@type": "machineHealth",
-        "name": "oillevel",
+        "@type": "Property",
+        "name": "machineHealth",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "messageTimestamp",
+        "schema": "dateTime"
+      },
+      {
+        "@type": "Property",
+        "name": "plantName",
+        "schema": "string"
+      },
+      {
+        "@type": "Property",
+        "name": "productionLine",
         "schema": "string"
       }
     ]

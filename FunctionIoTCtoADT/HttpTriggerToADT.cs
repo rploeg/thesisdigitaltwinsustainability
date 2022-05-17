@@ -14,6 +14,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Net.Http;
 using Company.Models;
+using System.Text.Json;
 
 namespace Company.Function
 {
@@ -33,47 +34,85 @@ namespace Company.Function
             string name = req.Query["name"];
 
             string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-            dynamic data = JsonConvert.DeserializeObject(requestBody);
-            name = name ?? data?.name;
-
             log.LogInformation(requestBody.ToString());
-            if (adtInstanceUrl == null) log.LogError("Application setting \"ADT_SERVICE_URL\" not set");
+
+            if (adtInstanceUrl == null) 
+            {
+                log.LogError("Application setting \"ADT_SERVICE_URL\" not set");
+            }
+
             try
             {
                 //Authenticate with Digital Twins
                 ManagedIdentityCredential cred = new ManagedIdentityCredential("https://digitaltwins.azure.net");
                 DigitalTwinsClient client = new DigitalTwinsClient(new Uri(adtInstanceUrl), cred, new DigitalTwinsClientOptions { Transport = new HttpClientTransport(httpClient) });
                 log.LogInformation($"ADT service client connection created.");
+
                 if (requestBody != null && requestBody.ToString() != null)
                 {
-                    log.LogInformation(requestBody.ToString());
-
                     // Reading deviceId and temperature from http request
-                    var deviceMessage = JsonConvert.DeserializeObject<Message>(requestBody.ToString());
+                    var deviceMessage = JsonConvert.DeserializeObject<Company.Models.IoTCentralMessage>(requestBody.ToString());
                     string deviceId = (string)deviceMessage.deviceId;
                     log.LogInformation(deviceId);
-                    string deviceType = "test";
-                     var updateTwinData = new JsonPatchDocument();
-                     var updateTwinData2 = new JsonPatchDocument();
-                    switch (deviceType){
-                        case "test":
-                            updateTwinData.AppendAdd("/MotorStatus", deviceMessage.properties[0].value);
-                            //updateTwinData.AppendAdd("/MotorStatus", ((JObject)deviceMessage["data.properties"][0]).Value<Boolean>());
-                            log.LogInformation("update ADT device");
-                            await client.UpdateDigitalTwinAsync(deviceId, updateTwinData);
-                            if ((bool)deviceMessage.properties[0].value)
-                                {
-                                updateTwinData2.AppendAdd("/double01", 30);
-                                await client.UpdateDigitalTwinAsync("GenericSensor04", updateTwinData2);
-                                }
-                                else 
-                                {
-                                updateTwinData2.AppendAdd("/double01", 0);
-                                await client.UpdateDigitalTwinAsync("GenericSensor04", updateTwinData2); 
-                                }
 
-                        break;
+                    var dtResponse = await client.GetDigitalTwinAsync<BasicDigitalTwin>(deviceId);
+                    var twin = dtResponse.Value;
+                    log.LogInformation($"Digital Twin {twin.Contents} found.");
+
+                    foreach(var item in twin.Contents)
+                    {
+                        log.LogInformation($"Property {item.Key}, Value : {item.Value}");
                     }
+
+                    log.LogInformation($"Telemetry: {deviceMessage.telemetry}");
+                    var options = new JsonDocumentOptions 
+                    {
+                        AllowTrailingCommas = true,
+                        CommentHandling = JsonCommentHandling.Skip
+                    };
+
+                    using (JsonDocument document = JsonDocument.Parse(requestBody.ToString(), options))
+                    {
+                        var updateTwinData = new JsonPatchDocument();
+                        document.RootElement.TryGetProperty("telemetry", out JsonElement telemetry);
+                        foreach (JsonProperty property in telemetry.EnumerateObject())
+                        {
+                            // updateTwinData.Add(new JsonPatchOperation()
+                            // {
+                            //     Operation = Operation.Add,
+                            //     Path = "/properties/temperature",
+                            //     Value = property.Value
+                            // });
+
+                            log.LogInformation($"{property.Name}: {property.Value}");
+                            updateTwinData.AppendAdd($"/{property.Name}", property.Value);
+                        }
+
+                        await client.UpdateDigitalTwinAsync(deviceId, updateTwinData);
+                    }
+
+                    // string deviceType = "test";
+                    //  var updateTwinData = new JsonPatchDocument();
+                    //  var updateTwinData2 = new JsonPatchDocument();
+                    // switch (deviceType){
+                    //     case "test":
+                    //         updateTwinData.AppendAdd("/MotorStatus", deviceMessage.properties[0].value);
+                    //         //updateTwinData.AppendAdd("/MotorStatus", ((JObject)deviceMessage["data.properties"][0]).Value<Boolean>());
+                    //         log.LogInformation("update ADT device");
+                    //         await client.UpdateDigitalTwinAsync(deviceId, updateTwinData);
+                    //         if ((bool)deviceMessage.properties[0].value)
+                    //             {
+                    //             updateTwinData2.AppendAdd("/double01", 30);
+                    //             await client.UpdateDigitalTwinAsync("GenericSensor04", updateTwinData2);
+                    //             }
+                    //             else 
+                    //             {
+                    //             updateTwinData2.AppendAdd("/double01", 0);
+                    //             await client.UpdateDigitalTwinAsync("GenericSensor04", updateTwinData2); 
+                    //             }
+
+                    //     break;
+                    // }
 
                 }
             }
