@@ -1,4 +1,4 @@
-module github.com/rploeg/thesisdigitaltwinsustainability/simulator
+module github.com/iot-for-all/iiot-oee
 
 go 1.17
 
