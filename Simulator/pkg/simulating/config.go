@@ -5,5 +5,5 @@ type Plant struct {
 	BoltMachine struct {
 		Count  int    `json:"count"`
 		Format string `json:"format"`
-	} `json:"boltMachine"`
+	} `json:"Machine"`
 }
