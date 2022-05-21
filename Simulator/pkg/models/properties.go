@@ -16,7 +16,7 @@ type (
 		HostTime  time.Time `json:"hostTime"`
 	}
 
-	MachineTelemetryMessage struct {
+	BoltMachineTelemetryMessage struct {
 		PlantName          string    `json:"plantName"`
 		ProductionLine     string    `json:"productionLine"`
 		ShiftNumber        int       `json:"shiftNumber"`
@@ -30,7 +30,7 @@ type (
 		Kwh		           float64   `json:"kwh"`
 	}
 
-	Machine struct {
+	BoltMachine struct {
 		PlantName          string  `json:"plantName"`
 		ProductionLine     string  `json:"productionLine"`
 		ShiftNumber        int     `json:"shiftNumber"`
