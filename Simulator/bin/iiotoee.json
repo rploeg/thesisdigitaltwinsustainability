@@ -11,23 +11,9 @@
     },
     "plant": [
       {
-        "name": "Everett",
+        "name": "FoodFactory",
         "boltMachine":{
-          "count": 2,
-          "format": "json"
-        }
-      },
-      {
-        "name": "Austin",
-        "boltMachine":{
-          "count": 1,
-          "format": "json"
-        }
-      },
-      {
-        "name": "Atlanta",
-        "boltMachine":{
-          "count": 1,
+          "count": 4,
           "format": "json"
         }
       }
