@@ -14,5 +14,6 @@ import "iotc" as iotc;
     defectivePartsMade: .telemetry | iotc::find(.name == "defectivePartsMade").value,
     temperature: .telemetry | iotc::find(.name == "temperature").value,
     oilLevel: .telemetry | iotc::find(.name == "oilLevel").value,
-    machineHealth: .telemetry | iotc::find(.name == "machineHealth").value
+    machineHealth: .telemetry | iotc::find(.name == "machineHealth").value,
+    kwh: .telemetry | iotc::find(.name == "kwh").value
 }
