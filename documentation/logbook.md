@@ -26,3 +26,5 @@ Created the ontology for the digital twin in ADT based on the production line<br
 Created first video of the demo solution to share with Professor<br>
 **22052022**<br>
 Changed the OEE dashboard (columns + dashboard) to also display kwh usage of the motors of the production line; in current solution there was no kwh<br>
+**23052022 - 26052022** <br>
+Started with documentation of configuration manual
