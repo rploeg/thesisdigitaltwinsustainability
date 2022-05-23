@@ -1,4 +1,4 @@
-# Timeline and changes of the software for the thesis
+# Logbook of the software for the thesis
 
 This page describes the logbook of the installation and configuration of my thesis.
 
