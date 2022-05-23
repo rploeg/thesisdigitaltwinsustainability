@@ -7,18 +7,22 @@ Created the first blank project for my thesis<br>
 **17042022**<br>
 Found a example that I can use for calculation OEE that I can extend to OEEE<br>
 **21042022 - 24042022**<br>
-Created the technical environment with IoT Central, Azure Digital Twins, Azure Data Explorer and more (see installation documentation)<br>
+Created the balnk technical environment with IoT Central, Azure Digital Twins, Azure Data Explorer and more (see installation documentation)<br>
 **27042022**<br>
 Found a sample simulator that I can reuse to send data to the Digital Twin<br>
 **04052022 - 08052022**<br>
 Setup Github documentation and README file to share documentation<br>
 **12052022**<br>
 Created function with Sander between IoT Central and Azure Digital Twin. All fields are now exporting to ADT<br>
+**13052022 - 15052022** <br>
+Configuration of machine templates in IoT Central with sustainability data, created dashboard in IoT Central to display the raw data<br>
 **18052022**<br>
 Found a great food packaging line 3D file to use in thesis<br>
 **19052022**<br>
 Setup the simulators to send data based on the production line<br>
 **20052022**<br>
 Created the ontology for the digital twin in ADT based on the production line<br>
+**21052022** <br>
+Created first video of the demo solution to share with Professor<br>
 **22052022**<br>
 Changed the OEE dashboard (columns + dashboard) to also display kwh usage of the motors of the production line; in current solution there was no kwh<br>
