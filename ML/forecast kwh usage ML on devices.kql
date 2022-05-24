@@ -1,0 +1,8 @@
+﻿let min_t = datetime(2022-05-24 09:11);
+let max_t = datetime(2022-05-24 15:00);
+let dt = 2h;
+let horizon=8h;
+boltmaker
+| make-series num=avg(kwh) on messageTimestamp from min_t to max_t+horizon step dt by deviceId 
+| extend forecast = series_decompose_forecast(num, toint(horizon/dt))
+| render timechart with(title='kwH forecast')
