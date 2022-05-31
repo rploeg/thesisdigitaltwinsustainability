@@ -53,7 +53,8 @@ func main() {
 				MachineHealth:      "Healthy",
 				OilLevel:           100,
 				Temperature:        100,
-				Kwh:				80,
+				Kwh:				90,
+				PlannedKwH:			90,
 				Format:             plant.BoltMachine.Format,
 			}
 			device := simulating.NewDevice(ctx, &cfg.Application, deviceID, &boltMachine)

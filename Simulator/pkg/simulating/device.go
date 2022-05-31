@@ -211,7 +211,7 @@ func (d *centralDevice) getTelemetryMessage() ([]byte, error) {
 		}
 	}
 //added Remco
-	if d.boltMachine.Kwh >= 95 {
+	if d.boltMachine.Kwh >= 90 {
 		d.boltMachine.Kwh -= 0.5
 	} else if d.boltMachine.Kwh <= 40 {
 		d.boltMachine.Kwh += 0.5
@@ -235,6 +235,7 @@ func (d *centralDevice) getTelemetryMessage() ([]byte, error) {
 		OilLevel:           d.boltMachine.OilLevel,
 		Temperature:        d.boltMachine.Temperature,
 		Kwh:       		    d.boltMachine.Kwh,
+		PlannedKwH:			d.boltMachine.PlannedKwH,		
 	}
 
 	return d.getBoltTelemetryPayload(&telemetry, d.boltMachine.Format == "opcua")
@@ -747,6 +748,7 @@ func (d *centralDevice) getBoltTelemetryPayload(tm *models.BoltMachineTelemetryM
 			"oilLevel":           tm.OilLevel,
 			"temperature":        tm.Temperature,
 			"Kwh":        		  tm.Kwh,
+			"PlannedkWh":  		  tm.PlannedKwH,
 		}
 
 		for name, value := range tvList {

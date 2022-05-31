@@ -28,6 +28,7 @@ type (
 		OilLevel           float64   `json:"oilLevel"`
 		Temperature        float64   `json:"temperature"`
 		Kwh		           float64   `json:"kwh"`
+		PlannedKwH		   float64	 `json:"plannedkwh"`
 	}
 
 	BoltMachine struct {
@@ -41,6 +42,7 @@ type (
 		OilLevel           float64 `json:"oilLevel"`
 		Temperature        float64 `json:"temperature"`
 		Kwh 	           float64 `json:"kwh"`
+		PlannedKwH		   float64 `json:"plannedkwh"`
 		Format             string  `json:"format"`
 	}
 )
