@@ -1,0 +1,66 @@
+{"level":"debug","plant":"Everett","time":"2022-05-31T21:50:28+02:00","message":"Starting up plant"}
+{"level":"debug","BoltMachine":1,"time":"2022-05-31T21:50:28+02:00","message":"Starting up bolt machine"}
+{"level":"debug","BoltMachine":2,"time":"2022-05-31T21:50:28+02:00","message":"Starting up bolt machine"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","time":"2022-05-31T21:50:28+02:00","message":"starting device"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","time":"2022-05-31T21:50:28+02:00","message":"starting device"}
+{"level":"debug","plant":"Austin","time":"2022-05-31T21:50:28+02:00","message":"Starting up plant"}
+{"level":"debug","BoltMachine":1,"time":"2022-05-31T21:50:28+02:00","message":"Starting up bolt machine"}
+{"level":"debug","plant":"Atlanta","time":"2022-05-31T21:50:28+02:00","message":"Starting up plant"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","time":"2022-05-31T21:50:28+02:00","message":"starting device"}
+{"level":"debug","BoltMachine":1,"time":"2022-05-31T21:50:28+02:00","message":"Starting up bolt machine"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","time":"2022-05-31T21:50:28+02:00","message":"starting device"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","time":"2022-05-31T21:50:38+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","time":"2022-05-31T21:50:38+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","time":"2022-05-31T21:50:38+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","time":"2022-05-31T21:50:38+02:00","message":"provisioning device"}
+{"level":"error","error":"failed to evaluate registration status. all retry attempts failed","deviceId":"Atlanta-BoltMachine-1","time":"2022-05-31T21:50:48+02:00","message":"failed to get device registration result"}
+{"level":"error","error":"failed to evaluate registration status. all retry attempts failed","deviceId":"Austin-BoltMachine-1","time":"2022-05-31T21:50:48+02:00","message":"failed to get device registration result"}
+{"level":"error","error":"failed to evaluate registration status. all retry attempts failed","deviceId":"Everett-BoltMachine-2","time":"2022-05-31T21:50:48+02:00","message":"failed to get device registration result"}
+{"level":"error","error":"failed to evaluate registration status. all retry attempts failed","deviceId":"Everett-BoltMachine-1","time":"2022-05-31T21:50:48+02:00","message":"failed to get device registration result"}
+{"level":"debug","plant":"Everett","time":"2022-05-31T21:52:49+02:00","message":"Starting up plant"}
+{"level":"debug","BoltMachine":1,"time":"2022-05-31T21:52:49+02:00","message":"Starting up bolt machine"}
+{"level":"debug","BoltMachine":2,"time":"2022-05-31T21:52:49+02:00","message":"Starting up bolt machine"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","time":"2022-05-31T21:52:49+02:00","message":"starting device"}
+{"level":"debug","plant":"Austin","time":"2022-05-31T21:52:49+02:00","message":"Starting up plant"}
+{"level":"debug","BoltMachine":1,"time":"2022-05-31T21:52:49+02:00","message":"Starting up bolt machine"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","time":"2022-05-31T21:52:49+02:00","message":"starting device"}
+{"level":"debug","plant":"Atlanta","time":"2022-05-31T21:52:49+02:00","message":"Starting up plant"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","time":"2022-05-31T21:52:49+02:00","message":"starting device"}
+{"level":"debug","BoltMachine":1,"time":"2022-05-31T21:52:49+02:00","message":"Starting up bolt machine"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","time":"2022-05-31T21:52:49+02:00","message":"starting device"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","time":"2022-05-31T21:52:59+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","time":"2022-05-31T21:52:59+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","time":"2022-05-31T21:52:59+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","time":"2022-05-31T21:52:59+02:00","message":"provisioning device"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","reportedProperties":"{}","time":"2022-05-31T21:53:03+02:00","message":"acknowledged twin update"}
+{"level":"debug","desired":"{\"$version\":1}","time":"2022-05-31T21:53:03+02:00","message":"applied desired twin state"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","time":"2022-05-31T21:53:03+02:00","message":"telemetry generator pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"reported properties update pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"send reported properties"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","reportedProperties":"{}","time":"2022-05-31T21:53:03+02:00","message":"acknowledged twin update"}
+{"level":"debug","desired":"{\"$version\":1}","time":"2022-05-31T21:53:03+02:00","message":"applied desired twin state"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","time":"2022-05-31T21:53:03+02:00","message":"telemetry generator pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"reported properties update pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"send reported properties"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","reportedProperties":"{}","time":"2022-05-31T21:53:03+02:00","message":"acknowledged twin update"}
+{"level":"debug","desired":"{\"$version\":1}","time":"2022-05-31T21:53:03+02:00","message":"applied desired twin state"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"reported properties update pump starting"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","time":"2022-05-31T21:53:03+02:00","message":"telemetry generator pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"send reported properties"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","reportedProperties":"{}","time":"2022-05-31T21:53:03+02:00","message":"acknowledged twin update"}
+{"level":"debug","desired":"{\"$version\":1}","time":"2022-05-31T21:53:03+02:00","message":"applied desired twin state"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","time":"2022-05-31T21:53:03+02:00","message":"telemetry generator pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"reported properties update pump starting"}
+{"level":"debug","time":"2022-05-31T21:53:03+02:00","message":"send reported properties"}
+{"level":"debug","deviceID":"Austin-BoltMachine-1","payload":"{\"hostName\":\"CPX-SJROLXZJGEQ\",\"hostTime\":\"2022-05-31T21:53:03.4036312+02:00\",\"ipAddress\":\"169.254.3.126\"}","numGoroutines":83,"time":"2022-05-31T21:53:03+02:00","message":"sent reported properties"}
+{"level":"debug","deviceID":"Atlanta-BoltMachine-1","payload":"{\"hostName\":\"CPX-SJROLXZJGEQ\",\"hostTime\":\"2022-05-31T21:53:03.4287247+02:00\",\"ipAddress\":\"169.254.3.126\"}","numGoroutines":83,"time":"2022-05-31T21:53:03+02:00","message":"sent reported properties"}
+{"level":"debug","deviceID":"Everett-BoltMachine-1","payload":"{\"hostName\":\"CPX-SJROLXZJGEQ\",\"hostTime\":\"2022-05-31T21:53:03.4556394+02:00\",\"ipAddress\":\"169.254.3.126\"}","numGoroutines":83,"time":"2022-05-31T21:53:03+02:00","message":"sent reported properties"}
+{"level":"debug","deviceID":"Everett-BoltMachine-2","payload":"{\"hostName\":\"CPX-SJROLXZJGEQ\",\"hostTime\":\"2022-05-31T21:53:03.4581911+02:00\",\"ipAddress\":\"169.254.3.126\"}","numGoroutines":83,"time":"2022-05-31T21:53:03+02:00","message":"sent reported properties"}
+{"level":"debug","payload":"{\"plantName\":\"Atlanta\",\"productionLine\":\"ProductionLine 1\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:53:03.4233625Z\",\"totalPartsMade\":99,\"defectivePartsMade\":8,\"machineHealth\":\"Healthy\",\"oilLevel\":99.9,\"temperature\":99.5,\"kwh\":89.5,\"plannedkwh\":90}","time":"2022-05-31T21:53:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Everett\",\"productionLine\":\"ProductionLine 1\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:53:03.4482174Z\",\"totalPartsMade\":95,\"defectivePartsMade\":0,\"machineHealth\":\"Healthy\",\"oilLevel\":99.9,\"temperature\":99.5,\"kwh\":89.5,\"plannedkwh\":90}","time":"2022-05-31T21:53:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Everett\",\"productionLine\":\"ProductionLine 2\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:53:03.4533233Z\",\"totalPartsMade\":96,\"defectivePartsMade\":0,\"machineHealth\":\"Healthy\",\"oilLevel\":99.9,\"temperature\":99.5,\"kwh\":89.5,\"plannedkwh\":90}","time":"2022-05-31T21:53:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Austin\",\"productionLine\":\"ProductionLine 1\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:53:03.3943896Z\",\"totalPartsMade\":91,\"defectivePartsMade\":7,\"machineHealth\":\"Healthy\",\"oilLevel\":99.9,\"temperature\":99.5,\"kwh\":89.5,\"plannedkwh\":90}","time":"2022-05-31T21:53:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Atlanta\",\"productionLine\":\"ProductionLine 1\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:54:03.6571728Z\",\"totalPartsMade\":94,\"defectivePartsMade\":0,\"machineHealth\":\"Healthy\",\"oilLevel\":99.80000000000001,\"temperature\":99,\"kwh\":90,\"plannedkwh\":90}","time":"2022-05-31T21:54:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Everett\",\"productionLine\":\"ProductionLine 2\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:54:03.6729817Z\",\"totalPartsMade\":99,\"defectivePartsMade\":0,\"machineHealth\":\"Healthy\",\"oilLevel\":99.80000000000001,\"temperature\":99,\"kwh\":90,\"plannedkwh\":90}","time":"2022-05-31T21:54:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Everett\",\"productionLine\":\"ProductionLine 1\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:54:03.6730551Z\",\"totalPartsMade\":91,\"defectivePartsMade\":0,\"machineHealth\":\"Healthy\",\"oilLevel\":99.80000000000001,\"temperature\":99,\"kwh\":89,\"plannedkwh\":90}","time":"2022-05-31T21:54:03+02:00","message":"sent telemetry"}
+{"level":"debug","payload":"{\"plantName\":\"Austin\",\"productionLine\":\"ProductionLine 1\",\"shiftNumber\":3,\"batchNumber\":20,\"messageTimestamp\":\"2022-05-31T19:54:03.688671Z\",\"totalPartsMade\":96,\"defectivePartsMade\":6,\"machineHealth\":\"Healthy\",\"oilLevel\":99.80000000000001,\"temperature\":99,\"kwh\":89,\"plannedkwh\":90}","time":"2022-05-31T21:54:03+02:00","message":"sent telemetry"}

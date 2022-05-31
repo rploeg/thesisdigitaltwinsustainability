@@ -1,3 +1,4 @@
+
 # The transformation query specified here will be used to change each exported 
 # message into a different format. You can get started using the example below,
 # and learn more about the language in documentation:
@@ -15,5 +16,6 @@ import "iotc" as iotc;
     temperature: .telemetry | iotc::find(.name == "temperature").value,
     oilLevel: .telemetry | iotc::find(.name == "oilLevel").value,
     machineHealth: .telemetry | iotc::find(.name == "machineHealth").value,
-    kwh: .telemetry | iotc::find(.name == "kwh").value
+    kwh: .telemetry | iotc::find(.name == "kwh").value,
+    plannedkwh: .telemetry | iotc::find(.name == "plannedkwh").value
 }
