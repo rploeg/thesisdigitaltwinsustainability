@@ -28,3 +28,7 @@ Created first video of the demo solution to share with Professor<br>
 Changed the OEE dashboard (columns + dashboard) to also display kwh usage of the motors of the production line; in current solution there was no kwh<br>
 **23-05-2022 - 26-05-2022** <br>
 Started with documentation of configuration manual
+***01-06-2022**<br>
+Added the calculations of the E to the dashboard
+Added the 3D scenes changes with the extra E
+Update the documentation of installation steps
