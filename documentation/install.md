@@ -1,4 +1,4 @@
-# Installation of infrastructure components
+# Installation and configuration of infrastructure components
 
 
 # Create Azure IoT Central application
@@ -74,3 +74,13 @@ import "iotc" as iotc;
 }
 
 5. Safe the export and see if the export is running
+
+
+# Configuration of Azure Data Explorer dashboard
+
+1. Import [this file](https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/ADX/dashboard-OEEE%20Dashboard.json) in the dashboard of Azure Data Explorer
+
+You should now see the following dashboard (select the right factory, productionline and timeframe):
+
+![image](https://user-images.githubusercontent.com/49752333/171480270-1a180cb5-4df9-4978-b315-7b72ecee9a9e.png)
+
