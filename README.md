@@ -8,7 +8,7 @@ Below you can see the high level architecture of the sustainable digital twin<br
 
 ![image](https://user-images.githubusercontent.com/49752333/171601775-bb071c30-ff8b-4bf7-bbcf-8ca9f909cb27.png)
 <br>
-1. Machines - are simulators of machine data
+1. Machines in productionline - are simulators of machine data
 2. Azure IoT Central is used to receive the raw machine data
 3. Azure Data Explorer is used for long term storage and machine learning (forecast energy and anomaly)
 4. Azure Digital Twins for latest data points of machine and placing it in the context of the production line
