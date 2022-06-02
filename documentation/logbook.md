@@ -8,6 +8,8 @@ Created the first blank project for my thesis<br>
 Found a example that I can use for calculation OEE that I can extend to OEEE<br>
 **21-04-2022 - 24042022**<br>
 Created the balnk technical environment with IoT Central, Azure Digital Twins, Azure Data Explorer and more (see installation documentation)<br>
+**23-04-2022**<br>
+Published first release of project to Github
 **27-04-2022**<br>
 Found a sample simulator that I can reuse to send data to the Digital Twin<br>
 **04-05-2022 - 08-05-2022**<br>
