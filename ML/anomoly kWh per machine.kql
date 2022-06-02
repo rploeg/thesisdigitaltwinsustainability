@@ -4,4 +4,4 @@ let dt = 2h;
 boltmaker
 | make-series num=avg(kwh) on messageTimestamp from min_t to max_t step dt by deviceId 
 | extend (anomalies, score, baseline) = series_decompose_anomalies(num, 1.5, -1, 'linefit')
-| render anomalychart with(anomalycolumns=anomalies, title='Anomalies kWh usage per machine')
+| render anomalychart with(anomalycolumns=anomalies, title='Anomalies kWh usage per machine in production line')
