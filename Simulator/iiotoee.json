@@ -11,21 +11,21 @@
     },
     "plant": [
       {
-        "name": "Everett",
+        "name": "Amsterdam",
         "boltMachine":{
           "count": 2,
           "format": "json"
         }
       },
       {
-        "name": "Austin",
+        "name": "Rotterdam",
         "boltMachine":{
           "count": 1,
           "format": "json"
         }
       },
       {
-        "name": "Atlanta",
+        "name": "Utrecht",
         "boltMachine":{
           "count": 1,
           "format": "json"
