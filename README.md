@@ -41,7 +41,7 @@ If everything is configured correctly you should have two dahsboard:
 1. OEEE dashboard<br>
 ![image](https://user-images.githubusercontent.com/49752333/171603282-bf3c6730-a6dc-4656-bd4c-7a6a7fcebe1b.png)
 <br>
-2. 3D view of the sustainable Digital Twin
+2. 3D view of the sustainable Digital Twin based on one foodpackaging production line
 
 ![image](https://user-images.githubusercontent.com/49752333/171603832-bbdc3249-0173-40dc-b240-646832cc0730.png)
 
