@@ -1,5 +1,5 @@
 # Thesis  Digital Twin and sustainability in manufacturing
-Welcome. This repo describes the installation and configuration of the sustainable digital twin used for my thesis. Please contact me if you have any questions!
+Welcome! This repo describes the installation and configuration of the sustainable digital twin used for my thesis. Please contact me if you have any questions!
 
 All the steps that I have taken are noted [here](https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentation/logbook.md) in my logbook.
 
