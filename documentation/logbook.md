@@ -32,3 +32,6 @@ Started with documentation of configuration manual
 Added the calculations of the E to the dashboard
 Added the 3D scenes changes with the extra E
 Update the documentation of installation steps
+***02-06-2022**<br>
+Added documentation around configuration of ADT
+Added documenation about simulator
