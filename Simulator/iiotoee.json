@@ -5,8 +5,8 @@
     },
     "application": {
       "provisioningUrl": "global.azure-devices-provisioning.net",
-      "idScope": "0ne0054B2E5",
-      "masterKey": "ZHhWqDQ6lEpNLDVUV60CunhZzZdkbNJB9bNNThE45Yqqk7bXiYm90RxxSYy0JqVgAWEJ1MI9GNYxLQTXbYy5uA==",
+      "idScope": "YOURIDSCOPE",
+      "masterKey": "YOURKEY",
       "boltMachineModelID": "dtmi:parnellAerospace:BoltMakerV1;1"
     },
     "plant": [
