@@ -1,2 +1,0 @@
-# Used datapoints in simulator
-
