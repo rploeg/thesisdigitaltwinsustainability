@@ -38,7 +38,7 @@ https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentatio
 
 If everything is configured correctly you should have two dahsboard:
 
-1. OEEE dashboard<br>
+1. OEEE dashboard with extra E for energy included together with forecasting and anomaly<br>
 ![image](https://user-images.githubusercontent.com/49752333/171603282-bf3c6730-a6dc-4656-bd4c-7a6a7fcebe1b.png)
 <br>
 2. 3D view of the sustainable Digital Twin based on one foodpackaging production line
