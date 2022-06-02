@@ -3,7 +3,7 @@ Welcome. This repo describes the installation and configuration of the sustainab
 
 All the steps that I have taken are noted [here](https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentation/logbook.md) in my logbook.
 
-# Architecture
+# High Level Architecture
 Below you can see the high level architecture of the sustainable digital twin<br>
 
 ![image](https://user-images.githubusercontent.com/49752333/171601775-bb071c30-ff8b-4bf7-bbcf-8ca9f909cb27.png)
