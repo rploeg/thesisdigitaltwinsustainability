@@ -13,7 +13,7 @@ Found a sample simulator that I can reuse to send data to the Digital Twin<br>
 **04-05-2022 - 08-05-2022**<br>
 Setup Github documentation and README file to share documentation<br>
 **12-05-2022**<br>
-Created function with Sander between IoT Central and Azure Digital Twin. All fields are now exporting to ADT<br>
+Created function with Sander between IoT Central and Azure Digital Twin. All fields are exporting to ADT<br>
 **13-05-2022 - 15-05-2022** <br>
 Configuration of machine templates in IoT Central with sustainability data, created dashboard in IoT Central to display the raw data<br>
 **18-05-2022**<br>
@@ -27,11 +27,13 @@ Created first video of the demo solution to share with Professor<br>
 **22-05-2022**<br>
 Changed the OEE dashboard (columns + dashboard) to also display kwh usage of the motors of the production line; in current solution there was no kwh<br>
 **23-05-2022 - 26-05-2022** <br>
-Started with documentation of configuration manual
-***01-06-2022**<br>
-Added the calculations of the E to the dashboard
-Added the 3D scenes changes with the extra E
-Update the documentation of installation steps
-***02-06-2022**<br>
-Added documentation around configuration of ADT
-Added documenation about simulator
+Started with documentation of configuration manual<br>
+**01-06-2022**<br>
+Added the calculations of the E to the dashboard<br>
+Added the 3D scenes changes with the extra E<br>
+Update the documentation of installation steps<br>
+**02-06-2022**<br>
+Added documentation around configuration of ADT<br>
+Added documenation about simulator<br>
+Changed mainpage with links to all individual components pages<br>
+Added logbook link<br>
