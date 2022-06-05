@@ -210,10 +210,10 @@ func (d *centralDevice) getTelemetryMessage() ([]byte, error) {
 			d.boltMachine.Temperature -= 0.5
 		}
 	}
-//added Remco
-	if d.boltMachine.Kwh >= 90 {
+	//added Remco
+	if d.boltMachine.Kwh >= 91 {
 		d.boltMachine.Kwh -= 0.5
-	} else if d.boltMachine.Kwh <= 40 {
+	} else if d.boltMachine.Kwh <= 89 {
 		d.boltMachine.Kwh += 0.5
 	} else {
 		if rand.Intn(100) > 40 {
@@ -234,8 +234,8 @@ func (d *centralDevice) getTelemetryMessage() ([]byte, error) {
 		MachineHealth:      d.boltMachine.MachineHealth,
 		OilLevel:           d.boltMachine.OilLevel,
 		Temperature:        d.boltMachine.Temperature,
-		Kwh:       		    d.boltMachine.Kwh,
-		PlannedKwH:			d.boltMachine.PlannedKwH,		
+		Kwh:                d.boltMachine.Kwh,
+		PlannedKwH:         d.boltMachine.PlannedKwH,
 	}
 
 	return d.getBoltTelemetryPayload(&telemetry, d.boltMachine.Format == "opcua")
@@ -747,8 +747,8 @@ func (d *centralDevice) getBoltTelemetryPayload(tm *models.BoltMachineTelemetryM
 			"machineHealth":      tm.MachineHealth,
 			"oilLevel":           tm.OilLevel,
 			"temperature":        tm.Temperature,
-			"Kwh":        		  tm.Kwh,
-			"PlannedkWh":  		  tm.PlannedKwH,
+			"Kwh":                tm.Kwh,
+			"PlannedkWh":         tm.PlannedKwH,
 		}
 
 		for name, value := range tvList {

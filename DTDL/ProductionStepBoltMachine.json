@@ -1,6 +1,6 @@
 [
   {
-    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step_bolt;3",
+    "@id": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step_bolt;4",
     "@type": "Interface",
     "extends": "dtmi:com:thesisrp:iot:e2e:digital_factory:production_step;2",
     "displayName": "Factory Production Step: bolt/Roasting - Interface Model",
@@ -63,6 +63,12 @@
         "@type": "Property",
         "name": "productionLine",
         "schema": "string"
+      },
+      {
+        "@type": ["Property", "Planned Power"],
+        "name": "plannedkwh",
+        "schema": "double",
+        "unit" : "kilowatt"
       }
     ]
   }
