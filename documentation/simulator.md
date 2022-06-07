@@ -57,3 +57,7 @@ The following datapoints are send to to the sustainable digital twin solution
 	}
   </code>
   
+
+# Import data
+
+Also a dataset is provided that you can import into Azure Data Explorer. The simulated data set can be found in the [ADX directory](https://github.com/rploeg/thesisdigitaltwinsustainability/ADX/). 
