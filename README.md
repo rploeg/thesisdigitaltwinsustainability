@@ -9,13 +9,13 @@ Below you can see the high level architecture of the sustainable digital twin<br
 ![image](https://user-images.githubusercontent.com/49752333/173793242-6498cdc3-f5d8-47ce-8b6a-634bd400546d.png)
 
 <br>
-1. Machines in productionline - are simulators of machine data
-2. Azure IoT Central is used to receive the raw machine data
-3. Azure Data Explorer is used for long term storage and machine learning (forecast energy and anomaly)
-4. Azure Digital Twins for latest data points of machine and placing it in the context of the production line
-5. Azure Functions sends data from Azure IoT Central to Azure Digital Twins
-6. Azure Digital Twins 3D scenes is used to create the 3D view of the sustainable digital twin
-7. OEEE dashboard is created on Azure Data Explorer to calculate the OEEE and showcase the forecasts of energy and problems in the production line
+1. Machines in productionline - are simulators of machine data <br>
+2. Azure IoT Central is used to receive the raw machine data <br>
+3. Azure Data Explorer is used for long term storage and machine learning (forecast energy and anomaly) <br>
+4. Azure Digital Twins for latest data points of machine and placing it in the context of the production line <br>
+5. Azure Functions sends data from Azure IoT Central to Azure Digital Twins <br>
+6. Azure Digital Twins 3D scenes is used to create the 3D view of the sustainable digital twin <br>
+7. OEEE dashboard is created on Azure Data Explorer to calculate the OEEE and showcase the forecasts of energy and problems in the production line <br>
 
 # Installation of base infrastructuur
 On the following page you can find the installation of the Azure components used in the sustainable digital twin
