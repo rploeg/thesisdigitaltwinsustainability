@@ -6,7 +6,8 @@ All the steps that I have taken are noted [here](https://github.com/rploeg/thesi
 # High Level Architecture
 Below you can see the high level architecture of the sustainable digital twin<br>
 
-![image](https://user-images.githubusercontent.com/49752333/171601775-bb071c30-ff8b-4bf7-bbcf-8ca9f909cb27.png)
+![image](https://user-images.githubusercontent.com/49752333/173793242-6498cdc3-f5d8-47ce-8b6a-634bd400546d.png)
+
 <br>
 1. Machines in productionline - are simulators of machine data
 2. Azure IoT Central is used to receive the raw machine data
