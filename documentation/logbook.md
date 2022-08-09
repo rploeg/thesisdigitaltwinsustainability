@@ -39,3 +39,6 @@ Added documentation around configuration of ADT<br>
 Added documenation about simulator<br>
 Changed mainpage with links to all individual components pages<br>
 Added logbook link<br>
+**09-08-2022**<br>
+Added link to full YouTube video of the experiment<br>
+
