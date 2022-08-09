@@ -1,7 +1,7 @@
 # Thesis  Digital Twin and sustainability in manufacturing
 Welcome! This repo describes the installation and configuration of the sustainable digital twin used for my thesis. Please contact me if you have any questions!
 
-All the steps that I have taken are noted [here](https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentation/logbook.md) in my logbook.
+All the steps that I have taken are noted [here](https://github.com/rploeg/thesisdigitaltwinsustainability/blob/main/documentation/logbook.md) in my logbook. <br>A full video of the experiment can be watched [here](https://www.youtube.com/watch?v=BS9UeIwKyzI)
 
 # High Level Architecture
 Below you can see the high level architecture of the sustainable digital twin<br>
