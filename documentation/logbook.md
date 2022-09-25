@@ -5,15 +5,15 @@ This page describes the logbook of the installation and configuration of my thes
 **16-04-2022**<br>
 Created the first blank project for my thesis<br>
 **17-04-2022**<br>
-Found a example that I can use for calculation OEE that I can extend to OEEE<br>
+Found an example that I can use for calculation OEE that I can extend to OEEE<br>
 **21-04-2022 - 24042022**<br>
-Created the balnk technical environment with IoT Central, Azure Digital Twins, Azure Data Explorer and more (see installation documentation)<br>
+Created the blank technical environment with IoT Central, Azure Digital Twins, Azure Data Explorer and more (see installation documentation)<br>
 **23-04-2022**<br>
-Published first release of project to Github
+Published first release of project to GitHub
 **27-04-2022**<br>
 Found a sample simulator that I can reuse to send data to the Digital Twin<br>
 **04-05-2022 - 08-05-2022**<br>
-Setup Github documentation and README file to share documentation<br>
+Setup GitHub documentation and README file to share documentation<br>
 **12-05-2022**<br>
 Created function with Sander between IoT Central and Azure Digital Twin. All fields are exporting to ADT<br>
 **13-05-2022 - 15-05-2022** <br>
